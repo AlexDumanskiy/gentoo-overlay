@@ -15,7 +15,7 @@ IUSE=""
 BDEPEND="dev-util/meson
          virtual/pkgconfig"
 RDEPEND="x11-libs/gtk+:3
-         x11-libs/libxcursor
+         x11-libs/libXcursor
          x11-libs/gdk-pixbuf"
 DEPEND="${RDEPEND}"
 

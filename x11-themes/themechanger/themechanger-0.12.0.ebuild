@@ -4,7 +4,8 @@ inherit meson git-r3
 
 DESCRIPTION="This app is a theme changing utility for Linux, BSDs, and whatnots. It lets the user change GTK 2/3/4, Kvantum, icon and cursor themes, even for libadwaita apps, edit GTK CSS with live preview, and set some related options. It also lets the user install icon and widget theme archives."
 HOMEPAGE="https://github.com/ALEX11BR/ThemeChanger"
-EGIT_REPO_URIRANCHCOMMIT="v${PV}"
+EGIT_REPO_URI="https://github.com/ALEX11BR/ThemeChanger"
+EGIT_COMMIT="v${PV}"
 
 LICENSE="GPL-2"
 SLOT="0"

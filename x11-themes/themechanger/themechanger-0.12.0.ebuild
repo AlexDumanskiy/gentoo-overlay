@@ -12,8 +12,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-BDEPEND="dev-util/build
-         virtual/pkgconfig"
+BDEPEND="virtual/pkgconfig"
 RDEPEND="x11-libs/gtk+:3
          x11-libs/libXcursor
          x11-libs/gdk-pixbuf"

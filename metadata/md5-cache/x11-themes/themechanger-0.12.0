@@ -1,6 +1,6 @@
-BDEPEND=dev-util/meson virtual/pkgconfig >=dev-build/meson-1.2.3 app-alternatives/ninja dev-build/meson-format-array >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=virtual/pkgconfig >=dev-build/meson-1.2.3 app-alternatives/ninja dev-build/meson-format-array >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install postinst postrm prepare test unpack
-DEPEND=x11-libs/gtk+:3 x11-libs/libxcursor x11-libs/gdk-pixbuf
+DEPEND=x11-libs/gtk+:3 x11-libs/libXcursor x11-libs/gdk-pixbuf
 DESCRIPTION=This app is a theme changing utility for Linux, BSDs, and whatnots. It lets the user change GTK 2/3/4, Kvantum, icon and cursor themes, even for libadwaita apps, edit GTK CSS with live preview, and set some related options. It also lets the user install icon and widget theme archives.
 EAPI=8
 HOMEPAGE=https://github.com/ALEX11BR/ThemeChanger
@@ -8,7 +8,7 @@ INHERIT=meson git-r3
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
 PROPERTIES=live
-RDEPEND=x11-libs/gtk+:3 x11-libs/libxcursor x11-libs/gdk-pixbuf
+RDEPEND=x11-libs/gtk+:3 x11-libs/libXcursor x11-libs/gdk-pixbuf
 SLOT=0
 _eclasses_=toolchain-funcs	948855ec7ad9f11351edf9066708dfa9	multilib	7e1347c006a76bb812f3a9f663b79991	flag-o-matic	fa33e3696fe4689dda7e9affe92e2c94	multiprocessing	e644caa6eb7ce7e5ab0864383ac13ad9	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	python-utils-r1	6881b056477c23167d9a6b33e146374e	meson	99466844dd8d4fcfb07578a76f5a9922	git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=f246993cf5225b7bf24b49d8a590eaf6
+_md5_=9ccefa7897a315350948506ad72de1b1

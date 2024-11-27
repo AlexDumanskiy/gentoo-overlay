@@ -3,7 +3,7 @@
 
 EAPI=8
 
-REVISION=b1
+REVISION=b2
 
 inherit desktop xdg
 

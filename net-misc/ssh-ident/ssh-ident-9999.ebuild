@@ -16,5 +16,5 @@ RDEPEND="app-shells/bash
 
 src_install() {
     dosbin ssh-ident
-    dodoc README.md
+    dodoc README*
 }
